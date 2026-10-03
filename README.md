@@ -225,4 +225,4 @@ neocred-credit-risk-dashboard/
 * 🐙 **GitHub:** [pauloviniciusrsouza](https://github.com/pauloviniciusrsouza)
 * 📧 **E-mail:** pauloviniciusrsouza@gmail.com
 
-*Projeto desenvolvido para fins de portfólio e análise de inteligência de negócios do E-commerce Dalilos.*
+*Projeto desenvolvido para fins de portfólio de inteligência de negócios, engenharia de dados e análise de risco financeiro.*
