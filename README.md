@@ -12,7 +12,7 @@ Uma solução end-to-end de Business Intelligence desenvolvida para avaliar a **
 
 [`📁 Acesse o Repositório no GitHub`](https://github.com/pauloviniciusrsouza/neocred-credit-risk-dashboard.git)
 
-[`📽️ Assista ao Vídeo Demonstrativo na Publicação do LinkedIn`](https://lnkd.in/p/seu-link-linkedin)
+[`📽️ Assista ao Vídeo Demonstrativo na Publicação do LinkedIn`](https://lnkd.in/p/evnEXm7h)
 
 ---
 
