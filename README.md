@@ -8,7 +8,7 @@ Uma solução end-to-end de Business Intelligence desenvolvida para avaliar a **
 
 💡 **Experimente na prática!** Você não precisa baixar nenhuma base de dados para navegar no painel. Acesse a versão interativa diretamente na web pelo link abaixo:
 
-[`🌐 Acesse o Dashboard Interativo`](https://app.powerbi.com/view?r=eyJrIjoiNTg3NGVkN2EtMmU2Yy00ZmI5LWI0NTMtZmMxYzY0NzAwZDliIiwidCI6IjliODhkOWRhLWYxN2QtNDgyYy1hZmQxLTU0M2IwYTMyYmI4MyJ9)
+[`🌐 Acesse o Dashboard Interativo`](https://app.powerbi.com/view?r=eyJrIjoiNTg3NGVkN2EtMmU2Yy00ZmI5LWI0NTMtZmMxYzY0NzAwZDliIiwidCI6IjliODhkOWRhLWYxN2QtNDgyYy1hZmQxLTU0M2IwYTMyYmI4MyJ9&pageName=29ed9c7bb200e645a689)
 
 [`📁 Acesse o Repositório no GitHub`](https://github.com/pauloviniciusrsouza/neocred-credit-risk-dashboard.git)
 
