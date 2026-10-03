@@ -2,13 +2,13 @@
 
 Uma solução end-to-end de Business Intelligence desenvolvida para avaliar a **gestão de risco de crédito**, analisar inadimplência da carteira e identificar o perfil demográfico e comportamental de tomadores de empréstimo da **NeoCred**.
 
-<p align="center"> <img width="800" alt="Dashboard NeoCred" src="assets/dashboard_powerbi.png" /> </p>
+<p align="center"> <img width="850" alt="Dashboard NeoCred" src="assets/dashboard_powerbi.png" /> </p>
 
 ---
 
 💡 **Experimente na prática!** Você não precisa baixar nenhuma base de dados para navegar no painel. Acesse a versão interativa diretamente na web pelo link abaixo:
 
-[`🌐 Acesse o Dashboard Interativo`]([https://app.powerbi.com/view?r=seu-link-aqui](https://app.powerbi.com/view?r=eyJrIjoiNTg3NGVkN2EtMmU2Yy00ZmI5LWI0NTMtZmMxYzY0NzAwZDliIiwidCI6IjliODhkOWRhLWYxN2QtNDgyYy1hZmQxLTU0M2IwYTMyYmI4MyJ9))
+[`🌐 Acesse o Dashboard Interativo`](https://app.powerbi.com/view?r=eyJrIjoiNTg3NGVkN2EtMmU2Yy00ZmI5LWI0NTMtZmMxYzY0NzAwZDliIiwidCI6IjliODhkOWRhLWYxN2QtNDgyYy1hZmQxLTU0M2IwYTMyYmI4MyJ9)
 
 [`📁 Acesse o Repositório no GitHub`](https://github.com/pauloviniciusrsouza/neocred-credit-risk-dashboard.git)
 
@@ -60,7 +60,7 @@ A construção da interface e da experiência do usuário (UX/UI) passou por qua
 * **O que foi feito:** Esboço inicial dos KPIs principais, mapas mentais sobre o fluxo de crédito e rascunho visual básico das três páginas.
 * **Motivo:** Estruturar as ideias sem limitações tecnológicas e definir a hierarquia da informação de forma rápida.
 
-<p align="center"> <img width="600" alt="Rascunho do dashboard NeoCred no papel" src="assets/dashboard_papel.jpg" /> </p>
+<p align="center"> <img width="700" alt="Rascunho do dashboard NeoCred no papel" src="assets/dashboard_papel.jpg" /> </p>
 
 
 ### 🖌️ Etapa 2: Excalidraw
@@ -68,20 +68,20 @@ A construção da interface e da experiência do usuário (UX/UI) passou por qua
 * **Motivo:** Organizar a disposição dos componentes na tela antes de aplicar estilos de cores e marcas.
 * **O que ficou para trás:** Layouts rígidos que não permitiam boa leitura em telas menores e agrupamentos de filtros que causavam redundância.
 
-<p align="center"> <img width="600" alt="Dashboard NeoCred no Excalidraw" src="assets/dashboard_excalidraw.png" /> </p>
+<p align="center"> <img width="700" alt="Dashboard NeoCred no Excalidraw" src="assets/dashboard_excalidraw.png" /> </p>
 
 ### 🎨 Etapa 3: Figma
 * **O que foi feito:** Criação do protótipo de alta fidelidade, prototipagem visual das três telas, aplicação do *Design System*, paleta de cores direcionada ao setor financeiro e definição dos fundos (*backgrounds*).
 * **Motivo:** Garantir uma estética limpa, moderna e pronta para produção no Power BI.
 * **O que ficou para trás:** Elementos visuais puramente decorativos que não agregavam valor direto à tomada de decisão.
 
-<p align="center"> <img width="600" alt="Dashboard NeoCred no Figma" src="assets/dashboard_figma.png" /> </p>
+<p align="center"> <img width="700" alt="Dashboard NeoCred no Figma" src="assets/dashboard_figma.png" /> </p>
 
 ### 📊 Etapa 4: Power BI & Refinamentos
 * **O que foi feito:** Construção final do relatório interativo, aplicação de filtros dinâmicos em *Dropdown*, padronização das dicas de ferramenta (*tooltips* no formato "O que o gráfico mostra / Como interpretar") e tratamento de exceções em DAX.
 * **Motivo:** Transformar o protótipo em uma ferramenta decisória pronta, robusta e livre de erros de contexto ao aplicar filtros cruzados.
 
-<p align="center"> <img width="600" alt="Dashboard NeoCred" src="assets/dashboard_powerbi.png" /> </p>
+<p align="center"> <img width="700" alt="Dashboard NeoCred" src="assets/dashboard_powerbi.png" /> </p>
 
 ---
 
@@ -108,7 +108,7 @@ A análise aprofundada da carteira revelou padrões claros sobre o comportamento
 ### 🐘 Layer 1: Engenharia de Dados no PostgreSQL
 Toda a base de dados de crédito foi estruturada na view `public.vw_credit_risk`, padronizando tipos de dados, limpando registros inconsistentes e preparando a base para consumo otimizado no Power BI.
 
-<p align="center"> <img width="600" alt="Dashboard NeoCred" src="assets/view_public.vw_credit_risk.png" /> </p>
+<p align="center"> <img width="850" alt="Dashboard NeoCred" src="assets/view_public.vw_credit_risk.png" /> </p>
 
 ### 📊 Layer 2: Modelagem DAX & Tratamento de Contexto
 Para garantir a robustez dos cartões de KPI e evitar erros de estouro de contexto ao filtrar dimensões conflitantes (como filtrar "Adimplentes" em um cartão de "Maior Inadimplência"), foram desenvolvidas lógicas dinâmicas no DAX:
