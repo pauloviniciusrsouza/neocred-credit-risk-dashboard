@@ -150,6 +150,8 @@ Para garantir a robustez dos cartões de KPI e evitar erros de estouro de contex
   * **Faixa Etária:** Segmentação em intervalos de idade (1. Até 19 anos, 2. 20 a 29 anos, ..., 6. 60+ anos) ordenada por índice para consistência visual.
   * **Faixa de Renda:** Agrupamento por capacidade financeira em Dropdown para otimizar espaço de tela.
 
+---
+
 ## 📈 6. Principais KPIs da Carteira
 
 Após a consolidação da view no PostgreSQL e as modelagens em DAX no Power BI, os principais números apurados para a carteira de crédito da **NeoCred** foram:
